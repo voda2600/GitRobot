@@ -10,9 +10,9 @@ namespace RGB
     {
         static void Main(strings[] args)
         {
-            RGB a = RGB.CreateFromRGB(0.24, 1, 0.99);
+            RGB a = RGB.CreateFromRGB(0.24, 1111, 0.99);
             Console.WriteLine(a);
-            CMY b = CMY.CreateFromCMY(0.76, 0, 0.01);
+            CMY b = CMY.CreateFromCMY(0.76,214124, 0.01);
             Console.WriteLine(b);
             Console.WriteLine("Summa:");
             RGB sum = a + a;
